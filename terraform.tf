@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "bonitahealthcare"
+    organization = ""
 
     workspaces {
       name = "terraform-cloud-ec2"
@@ -15,5 +15,5 @@ terraform {
     }
   }
 
-  required_version = "~>1.5.0"
+  required_version = "~>1.9.1"
 }
